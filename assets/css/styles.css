@@ -47,6 +47,7 @@ body{
   background-color: #f2f2f2;
   height:230px;
   text-align: center;
+  animation: fadeInLeft 2s;
 }
 
 .perfil img{
@@ -64,6 +65,7 @@ body{
   height:230px;
   text-align: center;
   /* border: 1px solid red; */
+  animation: fadeInLeft 2s;
 }
 
 .perfilText h1{
@@ -76,9 +78,9 @@ body{
 
 .perfilText h2{
   margin-top: 50px;
-  letter-spacing: 3px;
+  letter-spacing: 7px;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   
 }
 
@@ -86,6 +88,27 @@ span{
   font-family: Verdana;
   font-weight: 300;
 }
+
+.perfilText p{
+  width: 50%;
+  margin: auto;
+  /* letter-spacing: 0,2px; */
+  line-height: 1.4em;
+
+}
+
+.skills{
+  width:100%;
+  /* max-width: 1060px; */
+  margin: auto;  
+  background-color: #f2f2f2;
+  height:230px;
+  text-align: center;
+  /* animation: fadeInLeft 2s; */
+  /* border: 1px solid #ccc; */
+  margin-top: 100px;
+}
+
 
 .stacks{
   width: 100%;
@@ -114,6 +137,21 @@ span{
   height:35px;
 }
 
-
+/* css padão para aplicação do efeito de transação */
+@keyframes fadeInLeft
+{
+    0%{
+        opacity:0;
+        /* translateX reposiciona um elemento na direção horizontal e/ou vertical */
+        -webkit-transform:translateX(-100px); 
+        -ms-transform:translateX(-100px);
+        transform:translateX(-100px)}
+    100%{
+        opacity:1;
+        -webkit-transform:translateX(0);
+        -ms-transform:translateX(0);
+        transform:translateX(0)
+    }
+}
 
 
