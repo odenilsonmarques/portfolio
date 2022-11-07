@@ -91,6 +91,13 @@ body{
   margin-top: 10px;
   animation: fadeInLeft 2s;
 }
+
+span{
+  font-family: Verdana;
+  font-weight: 300;
+}
+
+
 .perfil{
   /* width:100%; */
   margin: auto;  
@@ -116,7 +123,8 @@ body{
   max-width: 1060px;
   margin: auto;  
   background-color: #FFF;
-  height:210px;
+  height:240px;
+  /* border:1px solid red; */
 }
 .perfilText p{
   text-align: center;
@@ -124,8 +132,13 @@ body{
   font-size: 16px;
   line-height: 1.4em;
   /* letter-spacing: 0.2px; */
+  /* border:1px solid red; */
 }
-
+.perfilText p{
+  width: 50%;
+  margin: auto;
+  line-height: 1.4em;
+}
 .perfilText img{
   padding-top:10px;
   width: 45px;
@@ -133,34 +146,24 @@ body{
 }
 
 
-
-span{
-  font-family: Verdana;
-  font-weight: 300;
-}
-.perfilText p{
-  width: 50%;
-  margin: auto;
-  line-height: 1.4em;
-}
 .skills{
   background-color: #f2f2f2;
-  height:350px;
-  margin-top: 100px;
+  height:400px;
+  /* margin-top: 0%; */
+  /* border:1px solid red; */
 }
 .stacks{
   width:100%;
   margin: auto;  
   background-color: #f2f2f2;
-  height:350px;
+  height:400px;
   max-width: 1060px;
   overflow-x: auto; /*this line is responsible for aplication responsiveness in table*/
+  /* border:1px solid red; */
 }
 .stacks h2{
-  padding-top:40px;
-  font-size:33px;
-  text-shadow: 1px 1px 2px #808080;
-  text-align: center;
+  margin-top: 0%;
+  padding-top: 50px;
 }
 .stacks img{
   width:33px;
@@ -169,7 +172,8 @@ span{
 .stacks, table{
   text-align: center;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 50px;
+  /* border:1px solid red; */
 }
 
 
