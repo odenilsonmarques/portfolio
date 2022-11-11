@@ -175,12 +175,81 @@ span{
   margin-top: 50px;
   /* border:1px solid red; */
 }
-
-
 table td {
   padding:15px;
+}
+
+.contacts{
+  background-color: #fff;
+  height:400px;
+  /* margin-top: 0%; */
+  /* border:1px solid red; */
+}
+
+.talk-to-me{
+  width:100%;
+  margin: auto;  
+  background-color: #fff;
+  height:400px;
+  max-width: 1060px;
+  /* border:1px solid red; */
+}
+.talk-to-me h2{
+  margin-top: 0%;
+  padding-top: 50px;
+  text-align:center;
+}
+.talk-to-me p{
+  margin-top: 0%;
+  padding-top: 40px;
+  text-align:center;
+  font-size: 18px;
+}
+.email{
+  font-size:20px;
+  text-align: center;
+  color:#333;
+  font-weight: bold;
+}
+.networks{
+  width:100%;
+  height:100px;
+}
+.networks ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+
+.networks li{
+  
+  height:100px; 
+  line-height: 100px;
+  margin-left:15px;
+  margin-right:15px;
+  display: inline;
+  background-color: #DEA057;
+  border-radius: 5px;
+  padding:8px;
+  /* color: #FFFF; */
+  /* border:1px solid red; */
   
 }
+
+.networks li a{
+  text-decoration:none;
+  color:#fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+
+
+
 
 /* css padão para aplicação do efeito de transação */
 @keyframes fadeInLeft
