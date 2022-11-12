@@ -4,19 +4,21 @@ body{
 }
 .top{
   background-color: #000000;
-  height:100px;
+  height:80px;
+  position: fixed;
+  width:100%;
 } 
 .topStart{
   width:100%;
   max-width: 1060px;
   margin: auto;  
   background-color: #000000;
-  height:100px;
+  height:80px;
 }
 .menuRight{
   width:50%;
   float:right;
-  height:100px;
+  height:80px;
 }
 .menuRight ul{
   margin: 0;
@@ -25,8 +27,8 @@ body{
   float:right;
 }
 .menuRight li{
-  height:100px; 
-  line-height: 100px;
+  height:80px; 
+  line-height: 80px;
   margin-left:15px;
   margin-right:15px;
   display: inline;
@@ -43,7 +45,7 @@ body{
   border-bottom: 3px solid #DEA057;
 }
 .hero{
-  height:calc(100vh - 100px);
+  height:calc(120vh - 120px);
   background-color: #333;
   background-image:url('../img/imgHero.jpg');
   background-size: cover;
@@ -88,7 +90,7 @@ span{
 }
 .perfil h2{
   margin-top: 0%;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 .perfil img{
   width:222px;
@@ -106,7 +108,7 @@ span{
 }
 .perfilText p{
   text-align: center;
-  padding-top: 80px;
+  padding-top: 110px;
   font-size: 16px;
   line-height: 1.4em;
 }
@@ -134,7 +136,7 @@ span{
 }
 .stacks h2{
   margin-top: 0%;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 .stacks img{
   width:33px;
@@ -218,7 +220,10 @@ table td {
   color:#DEA057;
   height:100px;
 }
-
+/* Responsavel pelo efeito scroll entre aa divs */
+html{
+  scroll-behavior: smooth;
+}
 /* css padão para aplicação do efeito de transação */
 @keyframes fadeInLeft
 {
