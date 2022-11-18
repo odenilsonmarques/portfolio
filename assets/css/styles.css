@@ -44,6 +44,10 @@ body{
 .menuRight a:hover{
   border-bottom: 3px solid #DEA057;
 }
+#menuHamburger{
+  display:none;
+}
+
 .hero{
   height:calc(120vh - 120px);
   background-color: #333;
@@ -240,5 +244,6 @@ html{
         transform:translateX(0)
     }
 }
+
 
 
