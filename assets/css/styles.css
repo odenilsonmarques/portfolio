@@ -47,7 +47,6 @@ body{
 #menuHamburger{
   display:none;
 }
-
 .hero{
   height:calc(120vh - 120px);
   background-color: #333;
@@ -94,7 +93,7 @@ span{
 }
 .perfil h2{
   margin-top: 0%;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 .perfil img{
   width:222px;
@@ -140,7 +139,7 @@ span{
 }
 .stacks h2{
   margin-top: 0%;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 .stacks img{
   width:33px;
