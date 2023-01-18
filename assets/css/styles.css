@@ -80,13 +80,15 @@ body{
 .menuRight li a{
   text-decoration:none;
   color:#FFF;
-  font-size: 18px;
+  font-size: 16px;
+  opacity: 0.5;
 }
-.active a{
+/* .active a{
   border-bottom: 3px solid #DEA057;
-}
+} */
 .menuRight a:hover{
   border-bottom: 3px solid #DEA057;
+  opacity: 1;
 }
 #menuHamburger{
   display:none;
