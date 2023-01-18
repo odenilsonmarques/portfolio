@@ -7,6 +7,7 @@ body{
   height:80px;
   position: fixed;
   width:100%;
+  /* border:1px solid red; */
 } 
 .topStart{
   width:100%;
@@ -14,11 +15,54 @@ body{
   margin: auto;  
   background-color: #000000;
   height:80px;
+  /* border:1px solid yellow; */
 }
+
+.logo{
+  width:40%;
+  float:left;
+  height:80px;
+  /* border:1px solid blue; */
+  /* border:1px solid yellow; */
+}
+
+.logo ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float:left;
+    /* border:1px solid blue; */
+}
+.logo li{
+  height:80px; 
+  line-height: 80px;
+  margin-left:15px;
+  margin-right:15px;
+  display: inline;
+  
+  
+}
+
+.logo li a{
+  text-decoration:none;
+  color:#FFF;
+  font-size: 18px;
+  border:1px solid #DEA057;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-weight: 700;
+  /* border-radius: 25px; */
+
+}
+
+
 .menuRight{
   width:50%;
   float:right;
   height:80px;
+  /* border:1px solid blue; */
 }
 .menuRight ul{
   margin: 0;
@@ -71,7 +115,7 @@ body{
   animation: fadeInLeft 2s;
 }
 .text-hero h2{
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
   font-size:30px;
   text-shadow:-1px 0 #000, 0 1px #000,
