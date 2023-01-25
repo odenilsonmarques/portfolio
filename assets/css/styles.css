@@ -131,11 +131,16 @@ span{
   font-family: Verdana;
   font-weight: 300;
 }
+
+
+
+
 .perfil{
   margin: auto;  
   background-color: #f2f2f2;
   height:280px;
   text-align: center;
+ 
 }
 .perfil h2{
   margin-top: 0%;
@@ -151,26 +156,46 @@ span{
 .perfilText{
   width:100%;
   max-width: 1060px;
-  margin: auto;  
-  background-color: #FFF;
-  height:240px;
-}
-.perfilText p{
-  text-align: center;
-  padding-top: 110px;
-  font-size: 16px;
-  line-height: 1.4em;
-}
-.perfilText p{
-  width: 50%;
   margin: auto;
-  line-height: 1.4em;
+  background-color: #FFF;
+  height:290px;
+  border: 1px solid red;
+  
 }
+
+
+
+.perfil-acting, .perfil-education{
+  width: 40%;
+  margin-top: 120px;
+  display: inline-block;
+ 
+  text-align: center;
+  margin-left: 5px;
+  
+
+  
+}
+
+/* .perfil-acting, .perfil-education p{
+  padding: 7px;
+} */
+
+.perfil-education{
+  float: right;
+}
+
+
+
 .perfilText img{
   padding-top:10px;
   width: 45px;
   height: 45px;
 }
+
+
+
+
 .skills{
   background-color: #f2f2f2;
   height:400px;
