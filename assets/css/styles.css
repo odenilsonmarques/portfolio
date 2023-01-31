@@ -131,11 +131,16 @@ span{
   font-family: Verdana;
   font-weight: 300;
 }
+
+
+
+
 .perfil{
   margin: auto;  
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   height:280px;
   text-align: center;
+ 
 }
 .perfil h2{
   margin-top: 0%;
@@ -151,26 +156,59 @@ span{
 .perfilText{
   width:100%;
   max-width: 1060px;
-  margin: auto;  
-  background-color: #FFF;
-  height:240px;
-}
-.perfilText p{
-  text-align: center;
-  padding-top: 110px;
-  font-size: 16px;
-  line-height: 1.4em;
-}
-.perfilText p{
-  width: 50%;
   margin: auto;
-  line-height: 1.4em;
+  background-color: #FFF;
+  height:290px;
+  /* border: 1px solid black; */
+  text-align: center;
 }
+
+
+
+.perfil-acting, .perfil-education{
+  width: 45%;
+  margin-top: 120px;
+  display: inline-block;
+  /* text-align: center; */
+  line-height: 1.4;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+  text-align: center;
+
+}
+
+.perfil-education, p{
+  
+  /* border: 1px solid red; */
+  
+  
+}
+
+.perfil-acting, p{
+
+  /* border: 1px solid yellow; */
+  
+}
+
+.perfil-acting .perfil-education, h3{
+  text-align: center;
+  text-shadow: 2px 2px 5px #DEA057;
+
+}
+
+
+
+
 .perfilText img{
   padding-top:10px;
   width: 45px;
   height: 45px;
 }
+
+
+
+
 .skills{
   background-color: #f2f2f2;
   height:400px;
