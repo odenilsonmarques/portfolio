@@ -161,10 +161,9 @@ span{
   height:290px;
   /* border: 1px solid black; */
   text-align: center;
+  padding-bottom: 5%;
+  
 }
-
-
-
 .perfil-acting, .perfil-education{
   width: 45%;
   margin-top: 120px;
@@ -175,31 +174,12 @@ span{
   padding-right: 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
   text-align: center;
-
 }
-
-.perfil-education, p{
-  
-  /* border: 1px solid red; */
-  
-  
-}
-
-.perfil-acting, p{
-
-  /* border: 1px solid yellow; */
-  
-}
-
 .perfil-acting .perfil-education, h3{
   text-align: center;
   text-shadow: 2px 2px 5px #DEA057;
 
 }
-
-
-
-
 .perfilText img{
   padding-top:10px;
   width: 45px;
@@ -211,32 +191,48 @@ span{
 
 .skills{
   background-color: #f2f2f2;
-  height:400px;
+  height:500px;
+  border: 1px solid #000;
 }
+
+
+
 .stacks{
   width:100%;
   margin: auto;  
   background-color: #f2f2f2;
   height:400px;
   max-width: 1060px;
-  overflow-x: auto; /*this line is responsible for aplication responsiveness in table*/
+  border: 1px solid yellow;
+  /* overflow-x: auto; this line is responsible for aplication responsiveness in table */
 }
-.stacks h2{
-  margin-top: 0%;
+.skills h2{
+
   padding-top: 90px;
+  text-align: center;
 }
 .stacks img{
   width:33px;
   height:33px;
 }
-.stacks, table{
+table{
   text-align: center;
   margin: auto;
   margin-top: 50px;
+  overflow-x: auto; 
 }
 table td {
-  padding:15px;
+  padding:20px;
 }
+
+table td:hover{
+  color: #DEA057;
+}
+
+
+
+
+
 .contacts{
   background-color: #fff;
   height:400px;
