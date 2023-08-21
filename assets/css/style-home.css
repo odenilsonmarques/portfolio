@@ -19,7 +19,7 @@ body {
 
 .container-two{
     /* width:100%; */
-    max-width: 1060px;
+    max-width: 1200px;
     margin: auto;  
     background-color: #333;
     height:80px;
@@ -53,7 +53,7 @@ body {
     text-decoration:none;
     color:#FFF;
     font-size: 18px;
-    border:1px solid #DEA057;
+    border:1px solid #F79327;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 7px;
@@ -94,10 +94,64 @@ body {
 
 
 .menuRight a:hover{
-    border-bottom: 3px solid #DEA057;
+    border-bottom: 3px solid #F79327;
     opacity: 1;
   }
+
+  .container-three{
+    border-color: red;
+    /* border: 1px solid red; */
+    height: 500px;
+    background-color: #333;
+  }
+
+  .container-four{
+     /* width:100%; */
+     max-width: 1200px;
+     margin: auto;  
+     background-color: #333;
+     height:400px;
+     /* border:1px solid yellow; */
+}
+
+.name-profission{
+    /* border:1px solid yellow; */
+    width:50%;
+    float:left;
+    height:270px;   
+    margin-left:15px;
+}
+
+.name-profission h1{
+  padding-top: 50px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.name-profission h2{
+  margin-top: -30px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #F79327;
+  font-size: 22px;
+}
+
+.name-profission p{
+  margin-top: -10px;
+  /* padding-bottom: 10px; */
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #fff;
+  font-size:16px;
+}
+
+
   
+
  
 
 /* Responsividade (Opcional) */
