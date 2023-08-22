@@ -103,6 +103,8 @@ body {
     /* border: 1px solid red; */
     height: 500px;
     background-color: #333;
+
+   
   }
 
   .container-four{
@@ -110,49 +112,99 @@ body {
      max-width: 1200px;
      margin: auto;  
      background-color: #333;
-     height:400px;
+     height:500px;
      /* border:1px solid yellow; */
 }
 
-.name-profission{
-    /* border:1px solid yellow; */
-    width:50%;
-    float:left;
-    height:270px;   
-    margin-left:15px;
+/* deixa as divs uma do lado da outra */
+.name-profission,.dev { 
+  display: inline-block; /* Alinha horizotalmente os elementos */
+  vertical-align: middle; /* Alinha verticalmente os elementos */
 }
 
-.name-profission h1{
-  padding-top: 50px;
-  padding-bottom: 5px;
-  padding-left: 7px;
-  padding-right: 7px;
-  color: #fff;
-  font-size: 40px;
+.name-profission{
+    /* border:1px solid green; */
+    width:50%;
+    height:400px;   
+    margin-left:15px;
+    
+  
 }
+.name-profission h1{
+  margin-top: 90px;
+  color: #FFF;
+  font-size: 35px;
+  margin-left:7px;
+}
+
 
 .name-profission h2{
-  margin-top: -30px;
-  padding-bottom: 10px;
-  padding-left: 7px;
-  padding-right: 7px;
+
+  margin-top: -27px;
+  margin-left:7px;
   color: #F79327;
   font-size: 22px;
 }
 
 .name-profission p{
-  margin-top: -10px;
-  /* padding-bottom: 10px; */
-  padding-left: 7px;
-  padding-right: 7px;
+  margin-top: -10px; 
+  margin-left: 7px;
   color: #fff;
-  font-size:16px;
+  font-size:15px;
 }
 
 
-  
 
- 
+.icones img {
+  margin-top:20px;
+  width: 22px; 
+  height: 22px; 
+  margin-left: 7px;
+}
+
+
+
+.curriculum{
+  margin-top:20px;
+  padding:7px;
+  border-radius: 5px;
+  border:none;
+  background-color: #F79327;
+  color: #333;
+  font-size: 13px;
+  margin-left: 7px;
+} 
+
+
+
+.curriculum:hover{
+  border:1px solid #F79327;
+  background-color: #333;
+  color: #F79327;
+}
+
+.dev{
+  /* border:1px solid yellow; */
+  width:45%;
+  text-align:center;
+  height:400px;   
+  margin-left:25px;
+}
+
+.dev img{
+  margin-top: 90px;
+  width:450px;
+  height:300px
+  /* text-align: center; */
+  /* margin: auto; */
+}
+
+
+
+
+
+
+
 
 /* Responsividade (Opcional) */
 @media screen and (max-width: 768px) {
