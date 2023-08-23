@@ -101,8 +101,9 @@ body {
   .container-three{
     border-color: red;
     /* border: 1px solid red; */
-    height: 500px;
+    height: 600px;
     background-color: #333;
+    /* background-image: linear-gradient(to bottom, #222, transparent); */
 
    
   }
@@ -111,13 +112,13 @@ body {
      /* width:100%; */
      max-width: 1200px;
      margin: auto;  
-     background-color: #333;
+     /* background-color: #333; */
      height:500px;
      /* border:1px solid yellow; */
 }
 
 /* deixa as divs uma do lado da outra */
-.name-profission,.dev { 
+.name-profission,.dev,.photo-dev,.information-dev{ 
   display: inline-block; /* Alinha horizotalmente os elementos */
   vertical-align: middle; /* Alinha verticalmente os elementos */
 }
@@ -127,8 +128,6 @@ body {
     width:50%;
     height:400px;   
     margin-left:15px;
-    
-  
 }
 .name-profission h1{
   margin-top: 90px;
@@ -152,8 +151,6 @@ body {
   color: #fff;
   font-size:15px;
 }
-
-
 
 .icones img {
   margin-top:20px;
@@ -200,9 +197,102 @@ body {
 }
 
 
+.container-about-one{
+  /* border-color: red; */
+  /* border: 1px solid red; */
+  border: 1px solid transparent;
+  height: 600px;
+  background-color: #333;
+  text-align: center;
+}
+
+.container-about-one h2{
+  text-align: center;
+  color:#fff;
+  /* margin-top: 20px; */
+}
+
+.container-about-two{
+   /* width:100%; */
+   max-width: 1200px;
+   margin: auto;  
+   background-color: #333;
+   height:500px;
+   /* border:1px solid yellow; */
+}
+
+.photo-dev{
+  /* border:1px solid green; */
+  width:50%;
+  height:400px;   
+  margin-left:15px;
+}
+
+.information-dev{
+    /* border:1px solid yellow; */
+    width:45%;
+    text-align:center;
+    height:400px;   
+    margin-left:25px;
+  
+}
+
+.photo-dev img{
+  border:1px solid green;
+  width: 220px; /* Largura desejada */
+  height: 250px; /* Altura desejada */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  display: block; /* Remove qualquer espaço extra abaixo da imagem */
+  transition: transform 0.3s ease; /* Adiciona uma transição de transformação */
+  border: 3px solid #F79327; /* Borda sólida com uma cor personalizada */
+  margin-top: 90px;
+  /* border-radius: 50%;  */
 
 
+  
+}
 
+.photo-dev img:hover {
+    transform: scale(1.1); /* Amplia a imagem quando o cursor passa sobre ela */
+}
+
+.information-dev h2{
+  margin-top: 90px;
+  color: #F79327;
+  font-size: 22px;
+  margin-left:7px;
+  text-align: left;
+  
+}
+
+.information-dev p{
+  margin-top: -10px; 
+  margin-left: 7px;
+  color: #fff;
+  font-size:16px;
+  text-align: justify;
+  line-height: 1.5;
+  padding: auto;
+  letter-spacing: 0.1px;
+}
+
+.icones-redes{
+  text-align: left;
+}
+
+.icones-redes img {
+  margin-top:20px;
+  width: 23px; 
+  height: 23px; 
+  margin-left: 7px;
+}
+
+.gmz-icone{
+  background-color:  #F79327; /* Cor de fundo desejada */
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 45%; /* Opcional: crie um fundo circular para os ícones */
+}
 
 
 
