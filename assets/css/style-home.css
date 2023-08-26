@@ -118,7 +118,7 @@ body {
 }
 
 /* deixa as divs uma do lado da outra */
-.name-profission,.dev,.photo-dev,.information-dev{ 
+.name-profission,.dev,.photo-dev,.information-dev,.project-one,.project-two,.project-three{ 
   display: inline-block; /* Alinha horizotalmente os elementos */
   vertical-align: middle; /* Alinha verticalmente os elementos */
 }
@@ -293,6 +293,110 @@ body {
   padding-right: 1px;
   border-radius: 45%; /* Opcional: crie um fundo circular para os ícones */
 }
+
+
+.container-portfolio-one{
+  /* border-color: red; */
+  /* border: 1px solid red; */
+  border: 1px solid transparent;
+  height: 750px;
+  background-color: #333;
+  text-align: center;
+}
+
+.container-portfolio-one h2{
+  text-align: center;
+  color:#fff;
+}
+
+.container-portfolio-two{
+   /* width:100%; */
+   max-width: 1200px;
+   margin: auto;  
+   background-color: #333;
+   height:500px;
+   /* border:2px solid #F79327; */
+}
+
+.container-portfolio-two h2{
+  margin-top: 50px;
+  text-align: center;
+  color: #F79327;
+  font-size: 18px;
+}
+
+.slider {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 300%; /* Um slide ocupa 33.33% da largura total */
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  float: left;
+  width: 33.33%; /* Largura de cada slide */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+  /* border:1px solid #F79327; */
+}
+
+.slide img{
+  width:100%;
+  margin:auto;
+  height: 450px;
+  border-radius: 5px;
+}
+
+
+/* Estilo para os botões de navegação */
+.next-btn,
+.prev-btn {
+    background-color: #F79327; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    padding: 5px 10px; /* Espaçamento interno do botão */
+    border: none; /* Remova a borda do botão */
+    cursor: pointer; /* Mude o cursor para uma mão quando pairar sobre o botão */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 5px; /* Margem ao redor dos botões */
+    transition: background-color 0.3s ease-in-out; /* Animação da cor de fundo */
+}
+
+/* Estilizar o botão de próxima quando o mouse está sobre ele */
+.next-btn:hover {
+  border:1px solid #F79327;
+  background-color: #333;
+  color: #F79327;
+}
+
+/* Estilizar o botão de anterior quando o mouse está sobre ele */
+.prev-btn:hover {
+  border:1px solid #F79327;
+  background-color: #333;
+  color: #F79327;
+
+
+
+}
+
+
+
+
+
+/* .project-two{
+  border:1px solid yellow;
+  width:25%;
+  height:400px;   
+  margin-left:15px;
+} */
 
 
 
