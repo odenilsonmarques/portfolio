@@ -113,7 +113,7 @@ body {
 }
 
 /* deixa as divs uma do lado da outra */
-.name-profission,.dev,.photo-dev,.information-dev,.project-one,.project-two,.project-three{ 
+.name-profission,.dev,.photo-dev,.information-dev,.project-one,.project-two,.project-three,.contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{ 
 display: inline-block; /* Alinha horizotalmente os elementos */
 vertical-align: middle; /* Alinha verticalmente os elementos */
 }
@@ -372,10 +372,39 @@ color: #F79327;
 border:1px solid #F79327;
 background-color: #333;
 color: #F79327;
-
-
-
 }
+
+
+.container-contacts-one{
+  /* border-color: red; */
+  border: 1px solid #f5f5f5;
+  /* border: 1px solid transparent; */
+  height: 600px;
+  background-color: #333;
+  text-align: center;
+  }
+  
+  .container-contacts-one h2{
+  text-align: center;
+  color:#fff;
+  /* margin-top: 40px; */
+  }
+  
+  .container-contacts-two{
+   /* width:100%; */
+   max-width: 1200px;
+   margin: auto;  
+   background-color: #333;
+   height:500px; 
+   border:1px solid yellow;
+  }
+
+  .contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{
+    width:20%;
+    margin: auto;
+    border: 1px solid yellow;
+    color:#f5f5f5;
+  }
 
 
 
