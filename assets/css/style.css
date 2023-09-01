@@ -1,0 +1,493 @@
+/* Reset de Estilos Padrão do Navegador (Opcional) */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container-one{
+  background-color: #333;
+  height:80px;
+  width:100%;
+} 
+
+.container-two{
+  max-width: 1200px;
+  margin: auto;  
+  background-color: #333;
+  height:80px;
+}
+
+.logo{
+  width:40%;
+  float:left;
+  height:80px;
+}
+
+.logo ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float:left;
+}
+
+.logo li{
+  height:80px; 
+  line-height: 80px;
+  margin-left:15px;
+  margin-right:15px;
+  display: inline;
+}
+
+.logo li a{
+  text-decoration:none;
+  color:#FFF;
+  font-size: 18px;
+  border:1px solid #F79327;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-weight: 700;
+}
+
+.menuRight{
+  width:50%;
+  float:right;
+  height:80px;
+}
+
+.menuRight ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float:right;
+}
+
+.menuRight li{
+  height:80px; 
+  line-height: 80px;
+  margin-left:15px;
+  margin-right:15px;
+  display: inline;
+}
+
+.menuRight li a{
+  text-decoration:none;
+  color:#FFF;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.menuRight a:hover{
+  border-bottom: 3px solid #F79327;
+  opacity: 1;
+}
+
+.container-three{
+  /* border-color: red; */
+  height: 550px;
+  background-color: #333;
+  position: relative;
+}
+
+.container-three::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Altura do degradê (ajuste conforme necessário) */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); /* Gradiente linear com maior opacidade */
+}
+
+.container-four{
+   max-width: 1200px;
+   margin: auto;  
+   height:500px;  
+   animation: fadeInLeft 2s;
+}
+
+/* deixa as divs uma do lado da outra */
+.name-profission,.dev,.photo-dev,.information-dev,.project-one,.project-two,.project-three,.contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{ 
+  display: inline-block; /* Alinha horizotalmente os elementos */
+  vertical-align: middle; /* Alinha verticalmente os elementos */
+}
+
+.name-profission{
+  width:50%;
+  height:400px;   
+  margin-left:15px;
+}
+
+.name-profission h1{
+  margin-top: 90px;
+  color: #FFF;
+  font-size: 35px;
+  margin-left:7px;
+}
+
+.name-profission h2{
+  margin-top: -27px;
+  margin-left:7px;
+  color: #F79327;
+  font-size: 22px;
+}
+
+.name-profission p{
+  margin-top: -10px; 
+  margin-left: 7px;
+  color: #fff;
+  font-size:15px;
+}
+
+.icones img {
+  margin-top:20px;
+  width: 22px; 
+  height: 22px; 
+  margin-left: 7px;
+}
+
+.curriculum{
+  margin-top:20px;
+  padding:7px;
+  border-radius: 5px;
+  border:none;
+  background-color: #F79327;
+  color: #333;
+  font-size: 13px;
+  margin-left: 7px;
+} 
+
+.curriculum:hover{
+  border:1px solid #F79327;
+  background-color: #333;
+  color: #F79327;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dev{
+  width:45%;
+  text-align:center;
+  height:400px;   
+  margin-left:25px;
+}
+
+.dev img{
+  margin-top: 90px;
+  width:450px;
+  height:300px
+}
+
+.container-about-one{
+  border: 1px solid transparent;
+  height: 650px;
+  background-color: #333;
+  text-align: center;
+  position: relative;
+}
+
+.container-about-one:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Altura do degradê (ajuste conforme necessário) */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); /* Gradiente linear com maior opacidade */
+}
+
+.container-about-two{
+  max-width: 1200px;
+  margin: auto;  
+  background-color: #333;
+  height:500px; 
+}
+
+.container-about-two h2{
+  text-align: center;
+  color:#fff;
+}
+
+.photo-dev{
+  width:50%;
+  height:400px;   
+  margin-left:15px;
+}
+
+.information-dev{
+  width:45%;
+  text-align:center;
+  height:400px;   
+  margin-left:25px;
+}
+
+.photo-dev img{
+  border:1px solid green;
+  width: 220px; 
+  height: 250px;
+  margin: 0 auto; 
+  display: block; 
+  transition: transform 0.3s ease; 
+  border: 3px solid #F79327;
+  margin-top: 90px;
+}
+
+.photo-dev img:hover {
+  transform: scale(1.1); /* Amplia a imagem quando o cursor passa sobre ela */
+}
+
+.information-dev h3{
+  margin-top: 90px;
+  color: #F79327;
+  font-size: 22px;
+  margin-left:7px;
+  text-align: left;
+}
+
+.information-dev p{
+  margin-top: -10px; 
+  margin-left: 7px;
+  color: #fff;
+  font-size:16px;
+  text-align: justify;
+  line-height: 1.5;
+  padding: auto;
+  letter-spacing: 0.1px;
+}
+
+.icones-redes{
+  text-align: left;
+}
+
+.icones-redes img {
+  margin-top:20px;
+  width: 23px; 
+  height: 23px; 
+  margin-left: 7px;
+}
+
+.gmz-icone{
+  background-color:  #F79327; 
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 45%; 
+}
+
+.container-portfolio-one{
+  border: 1px solid transparent;
+  height: 750px;
+  background-color: #333;
+  text-align: center;
+  position: relative;
+}
+
+.container-portfolio-one::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Altura do degradê (ajuste conforme necessário) */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); /* Gradiente linear com maior opacidade */
+}
+
+.container-portfolio-two{
+  max-width: 1200px;
+  margin: auto;  
+  background-color: #333;
+  height:500px;
+}
+
+.container-portfolio-one h2{
+  text-align: center;
+  color:#fff;
+}
+
+.container-portfolio-two h3{
+  margin-top: 50px;
+  text-align: center;
+  color: #F79327;
+  font-size: 18px;
+}
+
+.slider {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  float: left;
+  width: 33.33%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+  margin-top: -15px;
+}
+
+.slide img{
+  width:100%;
+  margin:auto;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.next-btn,
+.prev-btn {
+  background-color: #F79327; 
+  color: #fff; 
+  padding: 5px 10px;
+  border: none; 
+  cursor: pointer;
+  border-radius: 5px; 
+  font-size: 16px; 
+  margin: 5px; 
+  transition: background-color 0.3s ease-in-out; 
+}
+
+/* Estilizar o botão de próxima quando o mouse está sobre ele */
+.next-btn:hover {
+  border:1px solid #F79327;
+  background-color: #333;
+  color: #F79327;
+}
+
+/* Estilizar o botão de anterior quando o mouse está sobre ele */
+.prev-btn:hover {
+  border:1px solid #F79327;
+  background-color: #333;
+  color: #F79327;
+}
+
+.container-contacts-one{
+  border: 1px solid transparent;
+  height: 450px;
+  background-color: #333;
+  text-align: center;
+}
+  
+.container-contacts-two{
+  max-width: 1200px;
+  margin: auto;  
+  background-color: #333;
+  height:450px; 
+}
+
+.container-contacts-two h2{
+  text-align: center;
+  color:#fff;
+  margin-top: 100px;
+}
+
+.contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{
+  width:20%;
+  height: 450px;
+  margin: auto; 
+}
+
+.container-contacts-two h3{
+  margin-top: 10px;
+  color:#f5f5f5;
+  font-size: 13px;
+}
+
+.container-contacts-two img{
+  width:32px;
+  height: 32px;
+  margin-top: 90px;
+}
+
+.container-footer-one{
+  border: 1px solid transparent;
+  height: 350px;
+  background-color: #333;
+  text-align: center;
+}
+  
+.container-footer-two{
+  max-width: 1200px;
+  margin: auto;  
+  background-color: #333;
+  height:250px; 
+}
+
+.container-footer-two h2{
+  text-align: center;
+  color:#fff;
+  margin-top: 70px;
+}
+
+.footer-text{
+  color:#F79327;
+}
+
+.icones-footer img {
+  margin-top:20px;
+  width: 23px; 
+  height: 23px; 
+  margin-left: 7px;
+}
+
+.copy{
+  color: #fff;
+  font-size: 14px;
+}
+
+.copy-two{
+  color: #fff;
+  font-size: 13px;
+}
+
+.footer-text span{
+  color: #F79327;
+  font-size: 13px;
+}
+
+/* css padão para aplicação do efeito de transação */
+@keyframes fadeInLeft
+{
+  0%{
+      opacity:0;
+      /* translateX reposiciona um elemento na direção horizontal e/ou vertical */
+      -webkit-transform:translateX(-100px); 
+      -ms-transform:translateX(-100px);
+      transform:translateX(-100px)}
+  100%{
+      opacity:1;
+      -webkit-transform:translateX(0);
+      -ms-transform:translateX(0);
+      transform:translateX(0)
+  }
+}
+
+/* Responsividade (Opcional) */
+@media screen and (max-width: 768px) {
+  header h1 {
+      font-size: 2rem;
+  }
+  
+  header p {
+      font-size: 1rem;
+  }
+  
+  nav a {
+      margin: 0 5px;
+  }
+  
+  article {
+      padding: 10px;
+  }
+}
