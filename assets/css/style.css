@@ -12,6 +12,9 @@ body {
   background-color: #333;
   height:80px;
   width:100%;
+  position:fixed;
+  z-index: 1;
+  /* border: 1px solid #ccc; */
 } 
 
 .container-two{
@@ -89,9 +92,10 @@ body {
 
 .container-three{
   /* border-color: red; */
-  height: 550px;
+  height: 650px;
   background-color: #333;
   position: relative;
+  /* border: 1px solid #ccc; */
 }
 
 .container-three::after {
@@ -107,8 +111,9 @@ body {
 .container-four{
    max-width: 1200px;
    margin: auto;  
-   height:500px;  
+   height:650px;  
    animation: fadeInLeft 2s;
+   /* border: 1px solid #ccc; */
 }
 
 /* deixa as divs uma do lado da outra */
@@ -124,7 +129,7 @@ body {
 }
 
 .name-profission h1{
-  margin-top: 90px;
+  margin-top: 150px;
   color: #FFF;
   font-size: 35px;
   margin-left:7px;
@@ -178,7 +183,7 @@ body {
 }
 
 .dev img{
-  margin-top: 90px;
+  margin-top: 150px;
   width:450px;
   height:300px
 }
@@ -211,6 +216,7 @@ body {
 .container-about-two h2{
   text-align: center;
   color:#fff;
+  margin-top: 80px;
 }
 
 .photo-dev{
@@ -280,10 +286,11 @@ body {
 
 .container-portfolio-one{
   border: 1px solid transparent;
-  height: 760px;
+  height: 800px;
   background-color: #333;
   text-align: center;
   position: relative;
+  /* border: 1px solid red; */
 }
 
 .container-portfolio-one::after {
@@ -300,12 +307,15 @@ body {
   max-width: 1200px;
   margin: auto;  
   background-color: #333;
-  height:500px;
+  height:800px;
+  /* border: 1px solid #ccc; */
 }
 
-.container-portfolio-one h2{
+.container-portfolio-two h2{
   text-align: center;
   color:#fff;
+  margin-top: 80px;
+  /* border: 1px solid #ccc; */
 }
 
 .container-portfolio-two h3{
@@ -313,12 +323,14 @@ body {
   text-align: center;
   color: #F79327;
   font-size: 18px;
+  /* border: 1px solid #ccc; */
 }
 
 .slider {
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
+  /* border: 1px solid #ccc; */
 }
 
 .slides {
@@ -327,6 +339,7 @@ body {
   margin: 0;
   width: 300%;
   transition: transform 0.5s ease-in-out;
+  /* border: 1px solid yellow; */
 }
 
 .slide {
@@ -334,8 +347,9 @@ body {
   width: 33.33%;
   box-sizing: border-box;
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
   margin-top: -15px;
+  /* border: 1px solid yellow; */
 }
 
 .slide img{
@@ -343,6 +357,7 @@ body {
   margin:auto;
   height: 450px;
   border-radius: 5px;
+  /* border: 1px solid blue; */
 }
 
 .next-btn,
@@ -356,6 +371,7 @@ body {
   font-size: 16px; 
   margin: 5px; 
   transition: background-color 0.3s ease-in-out; 
+  /* border: 1px solid yellow; */
 }
 
 /* Estilizar o botão de próxima quando o mouse está sobre ele */
@@ -363,6 +379,7 @@ body {
   border:1px solid #F79327;
   background-color: #333;
   color: #F79327;
+  /* border: 1px solid yellow; */
 }
 
 /* Estilizar o botão de anterior quando o mouse está sobre ele */
@@ -370,6 +387,7 @@ body {
   border:1px solid #F79327;
   background-color: #333;
   color: #F79327;
+  border: 1px solid #cccc;
 }
 
 .container-contacts-one{
@@ -400,7 +418,7 @@ body {
 .container-contacts-two h2{
   text-align: center;
   color:#fff;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{
@@ -438,7 +456,8 @@ body {
 .container-footer-two h2{
   text-align: center;
   color:#fff;
-  margin-top: 20px;
+  margin-top: 80px;
+  border:1px solid #333;
 }
 
 .footer-text{
@@ -465,6 +484,18 @@ body {
 .footer-text span{
   color: #F79327;
   font-size: 13px;
+}
+
+#go-to-top{
+  float: right;
+  margin-top: -20px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+#go-to-top img{
+  width: 22px;
+  height: 22px;
 }
 
 /* css padão para aplicação do efeito de transação */

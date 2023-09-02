@@ -22,39 +22,42 @@
             <ul>
               <li><a href="#start">Inicio</a></li>
               <li><a href="#about">Sobre</a></li>
-              <li><a href="#skill">Portfólio</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
               <li><a href="#contacts">Contatos</a></li>
             </ul>
           </div>
       </nav>
   </header>
-  <section class="container-three">
-    <div class="container-four">
-      <div class="name-profission">
-        <h1>Odenilson Marques</h1>
-        <h2>Desenvolvedor Back - End</h2>
-        <p>Este é o meu website oficial e portfólio<br> Aqui você encontra alguns dos projetos que tive a satisfação de desenvolver</p>
-        <div class="icones">
-          <img src="assets/img/html.svg" title="html 5" alt="icone-html"/>
-          <img src="assets/img/css.svg" title="css 3" alt="icone-css"/>
-          <img src="assets/img/js.svg" title="javaScript" alt="icone-js"/>
-          <img src="assets/img/wordpress.svg" title="wordpress" alt="icone-wordpress"/>
-          <img src="assets/img/php.svg" title="php" alt="icone-php"/>
-          <img src="assets/img/laravel.svg" title="laravel" alt="icone-laravel"/>
-          <img src="assets/img/bootstrap.svg" title="bootstrap" alt="icone-bootstrap"/>
-          <img src="assets/img/docker.svg" title="docker" alt="icon-docker"/>
-          <img src="assets/img/sql.svg" title="sql" alt="icon-sql"/>
-        </div>
-        <a href="assets/pdf/curriculo.pdf" target="_blank" download>
-          <button class="curriculum">Baixar currículo</button>
-        </a>
-      </div>
-      <div class="dev">
-        <img src="assets/img/dev.svg" alt="">
-      </div>
-    </div>
-  </section>
 
+  <section class="start">
+    <div class="container-three">
+      <div class="container-four">
+        <div class="name-profission">
+          <h1>Odenilson Marques</h1>
+          <h2>Desenvolvedor Back - End</h2>
+          <p>Este é o meu website oficial e portfólio<br> Aqui você encontra alguns dos projetos que tive a satisfação de desenvolver</p>
+          <div class="icones">
+            <img src="assets/img/html.svg" title="html 5" alt="icone-html"/>
+            <img src="assets/img/css.svg" title="css 3" alt="icone-css"/>
+            <img src="assets/img/js.svg" title="javaScript" alt="icone-js"/>
+            <img src="assets/img/wordpress.svg" title="wordpress" alt="icone-wordpress"/>
+            <img src="assets/img/php.svg" title="php" alt="icone-php"/>
+            <img src="assets/img/laravel.svg" title="laravel" alt="icone-laravel"/>
+            <img src="assets/img/bootstrap.svg" title="bootstrap" alt="icone-bootstrap"/>
+            <img src="assets/img/docker.svg" title="docker" alt="icon-docker"/>
+            <img src="assets/img/sql.svg" title="sql" alt="icon-sql"/>
+          </div>
+          <a href="assets/pdf/curriculo.pdf" target="_blank" download>
+            <button class="curriculum">Baixar currículo</button>
+          </a>
+        </div>
+        <div class="dev">
+          <img src="assets/img/dev.svg" alt="">
+        </div>
+      </div>
+    </section>
+  </section>
+  
   <section class="about">
     <div class="container-about-one">
       <div class="container-about-two">
@@ -71,9 +74,15 @@
             além de fazer uso de frameworks como Laravel e Bootstrap.Também tenho familiaridade com a criação de ambientes de desenvolvimento usando Docker.
           </p>
           <div class="icones-redes">
-            <img src="assets/img/github.png" title="github" alt="icone-github" />
-            <img src="assets/img/linkedin.png" title="linkedin" alt="icone-linkedin"/>
-            <img src="assets/img/icone-gmze.png" class="gmz-icone" title="gmz solutions" alt="icone-gmz"/>
+            <a href="https://github.com/odenilsonmarques" target="_blank">
+              <img src="assets/img/github.png" title="github" alt="icone-github" />
+            </a>
+            <a href="https://www.linkedin.com/in/odenilsonmarques/" target="_blank">
+              <img src="assets/img/linkedin.png" title="linkedin" alt="icone-linkedin"/>
+            </a>
+            <a href="https://gmz.solutions/" target="_blank">
+              <img src="assets/img/icone-gmze.png" class="gmz-icone" title="gmz solutions" alt="icone-gmz"/>
+            </a>
           </div>
         </div>    
       </div>
@@ -137,16 +146,30 @@
         <div class="footer-text">
           <p>Este é o meu website oficial e portfólio<br> Aqui você encontra alguns dos projetos que tive a satisfação de desenvolver</p>
           <div class="icones-footer">
-            <img src="assets/img/github.png" title="github" alt="icone-github" />
-            <img src="assets/img/linkedin.png" title="linkedin" alt="icone-linkedin"/>
-            <img src="assets/img/icone-gmze.png" class="gmz-icone" title="gmz solutions" alt="icone-gmz"/>
+            <a href="https://github.com/odenilsonmarques" target="_blank">
+              <img src="assets/img/github.png" title="github" alt="icone-github" />
+            </a>
+            <a href="https://www.linkedin.com/in/odenilsonmarques/" target="_blank">
+              <img src="assets/img/linkedin.png" title="linkedin" alt="icone-linkedin"/>
+            </a>
+            <a href="https://gmz.solutions/" target="_blank">
+              <img src="assets/img/icone-gmze.png" class="gmz-icone" title="gmz solutions" alt="icone-gmz"/>
+            </a>
           </div>
           <p class="copy">&copy; 2023 Odenilson Marques. Todos os direitos reservados.</p>
-        <p class="copy-two">Desenvolvido por <span>Odenilson Marques</span></p>
+          <p class="copy-two">Desenvolvido por <span>Odenilson Marques</span></p>
         </div>
       </div>
+      <div id="go-to-top">
+        <a onclick="exibeHeader()">
+          <img src="assets/img/up-arrow.png" alt="icone-arrow" title="Voltar ao início">
+        </a>
+      </div>
     </div>
+    
   </section>
   <script src="assets/js/slide.js"></script>
+  <script src="assets/js/scroll-divs.js"></script>
+  <script src="assets/js/scroll-top.js"></script>
 </body>
 </html>
