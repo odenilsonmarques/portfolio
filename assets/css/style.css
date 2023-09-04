@@ -90,12 +90,17 @@ body {
   opacity: 1;
 }
 
+
+
+
+
 .container-hero-one{
   /* border-color: red; */
   height: 650px;
   background-color: #333;
   position: relative;
   /* border: 1px solid #ccc; */
+  
 }
 
 .container-hero-one::after {
@@ -123,7 +128,7 @@ body {
 }
 
 .name-profission{
-  width:50%;
+  width:40%;
   height:400px;   
   margin-left:15px;
 }
@@ -187,6 +192,16 @@ body {
   width:450px;
   height:300px
 }
+
+
+
+
+
+
+
+
+
+
 
 .container-about-one{
   border: 1px solid transparent;
@@ -372,6 +387,7 @@ body {
   margin: 5px; 
   transition: background-color 0.3s ease-in-out; 
   /* border: 1px solid yellow; */
+  margin-top: 15px;
 }
 
 /* Estilizar o botão de próxima quando o mouse está sobre ele */
@@ -516,7 +532,7 @@ body {
 }
 
 /* Responsividade (Opcional) */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   header h1 {
       font-size: 2rem;
   }
@@ -532,4 +548,4 @@ body {
   article {
       padding: 10px;
   }
-}
+} */
