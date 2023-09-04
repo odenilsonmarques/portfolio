@@ -8,7 +8,7 @@ body {
   line-height: 1.6;
 }
 
-.container-one{
+.menu-top{
   background-color: #333;
   height:80px;
   width:100%;
@@ -17,7 +17,7 @@ body {
   /* border: 1px solid #ccc; */
 } 
 
-.container-two{
+.nav-top{
   max-width: 1200px;
   margin: auto;  
   background-color: #333;
@@ -90,7 +90,7 @@ body {
   opacity: 1;
 }
 
-.container-three{
+.container-hero-one{
   /* border-color: red; */
   height: 650px;
   background-color: #333;
@@ -98,7 +98,7 @@ body {
   /* border: 1px solid #ccc; */
 }
 
-.container-three::after {
+.container-hero-one::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -108,7 +108,7 @@ body {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); /* Gradiente linear com maior opacidade */
 }
 
-.container-four{
+.container-hero-two{
    max-width: 1200px;
    margin: auto;  
    height:650px;  
