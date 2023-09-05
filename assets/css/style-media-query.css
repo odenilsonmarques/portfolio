@@ -133,10 +133,7 @@
         margin-top: 90px;
       }
 
-      .information-dev{
-       /* border: 1px solid #fff; */
-      }
-
+  
       .information-dev h3{
         margin-top: 90px;
         color: #F79327;
@@ -257,116 +254,32 @@
         border:1px solid #333;
       }
 
-     
 
-
-
-
-    .menuRight{
-        float:left;
-        width:20%;
+      /* oculta menu quando */
+      .menuRight{
         display: none;
-    }
-    .menuRight ul{
-        margin: 0;
-        padding: 0;
-        float:left;
-    }
-    .menuRight li{
-        margin-left:15px;
-        margin-right:15px;
+        width:1%;
+        margin-top: 80px;
+        margin-right: -70px;
+      }
+      
+      /* diminindo o espaço */
+      .menuRight li{
         line-height: 40px;
-    }
-    .menuRight li a{
-        text-decoration:none;
-        color:#DEA057;
-        font-size: 15px;
-        font-weight: bold;
-    }
-    #menuHamburger{
-        display:block;
-        text-align:left;
+        color: #fff;
+      }
+      
+      #menuHamburguer{
         color: #FFF;
-        margin-top:15px;
-        margin-left: 15px;
+        background-color: #333;
         cursor: pointer;
-    }
-    .text-hero{
-        text-align: center;
-    }
-    .text-hero h1{
-        font-size:20px;
-    }
-    .text-hero h2{
-        font-size:18px;
-    }
-    .perfil h2{
-        font-size:18px;
-        padding-top: 100px;
-    }
-    .perfil img{
-        width:160px;
-        height:160px;
-        margin-top: 5px;
-        border-radius: 50%;
-        border: 5px solid #FFF;
-    }
-    .perfilText{
-    height:250px;
-    }
-    .perfilText p{
-        text-align: center;
-        padding-top: 30px;
-        font-size: 14px;
-    }
-    .perfilText img{
-        padding-top:10px;
-        width: 40px;
-        height: 40px;
-    }
-    .skills{
-        height:200px;
-    }
-    .stacks{
-        margin-top:0%;
-    }
-    .stacks h2{
-        font-size:18px;
-        padding-top: 100px;
-    }
-    .stacks img{
-        width:25px;
-        height:25px;
-    }
-    table td {
-        padding:10px;
-    }
-    /* .contacts{
-        height:450px;
-        margin-top: 200px;
-    } */
-    .talk-to-me h2{
-        padding-top: 40px;
-        font-size:18px;
-    }
-    .talk-to-me p{
-        padding-top: 30px;
-        text-align:center;
-        font-size: 14px;
-    }
-    .networks li{
-        border-radius: 5px;
-        padding:5px;
-    }
-    .networks li a{
-        font-size: 14px;
-    }
-    .bottom{
-        margin-top: 0%;
-    }
-    .bottom-footer{
-        font-size: 14px;
-    }
+        margin-top:30px;
+        float: right;
+        margin-right: 50px;
+      }
+
+
+
 }
 
 
