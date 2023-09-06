@@ -3,26 +3,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
+  background-color: #333;
   line-height: 1.6;
 }
 
 .menu-top{
-  background-color: #333;
   height:80px;
   width:100%;
   position:fixed;
-  z-index: 1;
-  /* border: 1px solid #ccc; */
+  z-index: 999;
 } 
 
 .nav-top{
   max-width: 1200px;
-  margin: auto;  
-  background-color: #333;
+  margin: auto;
   height:80px;
-  /* border: 1px solid #ccc; */
 }
 
 .logo{
@@ -62,7 +57,6 @@ body {
   width:50%;
   float:right;
   height:80px;
-  /* border:1px solid red; */
 }
 
 .menuRight ul{
@@ -78,7 +72,6 @@ body {
   margin-left:15px;
   margin-right:15px;
   display: inline;
-  /* border: 1px solid #ccc; */
 }
 
 .menuRight li a{
@@ -93,35 +86,29 @@ body {
   opacity: 1;
 }
 
-
-
-
-
 .container-hero-one{
-  /* border-color: red; */
-  height: 650px;
-  background-color: #333;
+  height: 550px;
   position: relative;
-  /* border: 1px solid #ccc; */
-  
+  padding-top: 100px;
 }
 
+/* aplication degrade */
 .container-hero-one::after {
   content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px; /* Altura do degradê (ajuste conforme necessário) */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); /* Gradiente linear com maior opacidade */
+  height: 100px; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
 }
 
 .container-hero-two{
    max-width: 1200px;
    margin: auto;  
-   height:650px;  
+   height:550px;  
    animation: fadeInLeft 2s;
-   /* border: 1px solid #ccc; */
+   overflow: hidden;
 }
 
 /* deixa as divs uma do lado da outra */
@@ -131,14 +118,12 @@ body {
 }
 
 .name-profission{
-  width:50%;
   height:450px;   
   margin-left:15px;
-  /* border: 1px solid #ccc; */
 }
 
 .name-profission h1{
-  margin-top: 150px;
+  margin-top: 60px;
   color: #FFF;
   font-size: 35px;
   margin-left:7px;
@@ -185,28 +170,22 @@ body {
 }
 
 .dev{
-  width:46%;
-  text-align:center;
+  float: right;
+  max-width: 30%;
   height:450px;   
-  /* margin-left:25px; */
-  /* border:1px solid red; */
-  margin: auto;
+  margin-right: 50px;
 }
 
 .dev img{
-  margin-top: 150px;
-  width:450px;
+  margin-top: 60px;
   height:300px;
-  /* border:1px solid red; */
-  
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
 }
 
 .container-about-one{
-  border: 1px solid transparent;
-  height: 650px;
-  background-color: #333;
-  text-align: center;
+  height: 600px;
   position: relative;
+  padding-top: 50px;
 }
 
 .container-about-one:after {
@@ -215,49 +194,40 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px; /* Altura do degradê (ajuste conforme necessário) */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); /* Gradiente linear com maior opacidade */
+  height: 100px; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); 
 }
 
 .container-about-two{
   max-width: 1200px;
   margin: auto;  
-  background-color: #333;
-  height:500px; 
+  height:600px; 
+  text-align: center;
 }
 
 .container-about-two h2{
   text-align: center;
   color:#fff;
-  margin-top: 80px;
+  margin-top: 20px;
+  position: relative;
 }
 
 .photo-dev{
-  width:50%;
-  height:400px;   
+  height:450px;     
   margin-left:15px;
 }
 
-.information-dev{
-  width:45%;
-  text-align:center;
-  height:400px;   
-  margin-left:25px;
-}
-
 .photo-dev img{
-  border:1px solid green;
-  width: 220px; 
-  height: 250px;
-  margin: 0 auto; 
-  display: block; 
-  transition: transform 0.3s ease; 
   border: 3px solid #F79327;
   margin-top: 90px;
+  height:300px;
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
 }
 
-.photo-dev img:hover {
-  transform: scale(1.1); /* Amplia a imagem quando o cursor passa sobre ela */
+.information-dev{
+  float: right;
+  max-width: 60%;
+  height:450px;  
 }
 
 .information-dev h3{
@@ -272,10 +242,9 @@ body {
   margin-top: -10px; 
   margin-left: 7px;
   color: #fff;
-  font-size:16px;
+  font-size:15px;
   text-align: justify;
   line-height: 1.5;
-  padding: auto;
   letter-spacing: 0.1px;
 }
 
@@ -298,12 +267,9 @@ body {
 }
 
 .container-portfolio-one{
-  border: 1px solid transparent;
-  height: 800px;
-  background-color: #333;
-  text-align: center;
+  height: 750px;
   position: relative;
-  /* border: 1px solid red; */
+  padding-top: 50px;
 }
 
 .container-portfolio-one::after {
@@ -312,23 +278,21 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 80px; /* Altura do degradê (ajuste conforme necessário) */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); /* Gradiente linear com maior opacidade */
+  height: 80px; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); 
 }
 
 .container-portfolio-two{
   max-width: 1200px;
   margin: auto;  
-  background-color: #333;
-  height:800px;
-  /* border: 1px solid #ccc; */
+  height:750px;
+  text-align: center;
 }
 
 .container-portfolio-two h2{
   text-align: center;
   color:#fff;
-  margin-top: 80px;
-  /* border: 1px solid #ccc; */
+  margin-top: 20px;
 }
 
 .container-portfolio-two h3{
@@ -336,14 +300,12 @@ body {
   text-align: center;
   color: #F79327;
   font-size: 18px;
-  /* border: 1px solid #ccc; */
 }
 
 .slider {
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
-  /* border: 1px solid #ccc; */
 }
 
 .slides {
@@ -352,7 +314,6 @@ body {
   margin: 0;
   width: 300%;
   transition: transform 0.5s ease-in-out;
-  /* border: 1px solid yellow; */
 }
 
 .slide {
@@ -360,9 +321,7 @@ body {
   width: 33.33%;
   box-sizing: border-box;
   text-align: center;
-  /* padding: 20px; */
   margin-top: -15px;
-  /* border: 1px solid yellow; */
 }
 
 .slide img{
@@ -370,7 +329,6 @@ body {
   margin:auto;
   height: 450px;
   border-radius: 5px;
-  /* border: 1px solid blue; */
 }
 
 .next-btn,
@@ -384,32 +342,25 @@ body {
   font-size: 16px; 
   margin: 5px; 
   transition: background-color 0.3s ease-in-out; 
-  /* border: 1px solid yellow; */
   margin-top: 15px;
 }
 
-/* Estilizar o botão de próxima quando o mouse está sobre ele */
 .next-btn:hover {
   border:1px solid #F79327;
   background-color: #333;
   color: #F79327;
-  /* border: 1px solid yellow; */
 }
 
-/* Estilizar o botão de anterior quando o mouse está sobre ele */
 .prev-btn:hover {
   border:1px solid #F79327;
   background-color: #333;
   color: #F79327;
-  border: 1px solid #cccc;
 }
 
 .container-contacts-one{
-  border: 1px solid transparent;
   height: 450px;
-  background-color: #333;
-  text-align: center;
   position: relative;
+  padding-top: 50px;
 }
 
 .container-contacts-one::after {
@@ -418,21 +369,21 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 80px; /* Altura do degradê (ajuste conforme necessário) */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); /* Gradiente linear com maior opacidade */
+  height: 80px; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); 
 }
   
 .container-contacts-two{
   max-width: 1200px;
   margin: auto;  
-  background-color: #333;
-  height:450px; 
+  height:450px;
+  text-align: center;
 }
 
 .container-contacts-two h2{
   text-align: center;
   color:#fff;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{
@@ -448,30 +399,28 @@ body {
 }
 
 .container-contacts-two img{
-  width:32px;
-  height: 32px;
+  width:30px;
+  height: 30px;
   margin-top: 90px;
 }
 
 .container-footer-one{
-  border: 1px solid transparent;
-  height: 350px;
-  background-color: #333;
-  text-align: center;
+  height: 250px;
+  position: relative;
 }
   
 .container-footer-two{
   max-width: 1200px;
   margin: auto;  
   background-color: #333;
-  height:250px; 
+  height:250px;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .container-footer-two h2{
   text-align: center;
   color:#fff;
-  margin-top: 80px;
-  border:1px solid #333;
 }
 
 .footer-text{
@@ -493,6 +442,7 @@ body {
 .copy-two{
   color: #fff;
   font-size: 13px;
+  padding-bottom: 20px;
 }
 
 .footer-text span{
