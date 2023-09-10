@@ -1,13 +1,9 @@
-
-
 @media (max-width: 845px){
 
-  
   .container-hero-one{
     height: 400px;
     background-color: #333;
     position: relative;
- 
   }
 
   .container-hero-two{
@@ -15,14 +11,12 @@
     margin: auto;  
     height:400px;  
     animation: fadeInLeft 2s;
-  
  }
 
  .name-profission{
     width:45%;
     height:450px;   
     margin-left:15px;
-   
   }
 
   .name-profission h1{
@@ -76,9 +70,6 @@
     width:45%;
     text-align:center;
     height:450px;   
-    /* margin-left:25px; */
-    /* border:1px solid #fff; */
-    /* margin: auto; */
   }
   
   .dev img{
@@ -93,13 +84,11 @@
     padding-top: 1px;
     text-align: center;
     position: relative;
-    /* border:1px solid greenyellow; */
   }
 
   .container-about-two{
     max-width: 1200px;
     height:400px; 
-    /* border:1px solid #fff; */
   }
 
   .container-about-two h2{
@@ -107,14 +96,11 @@
     text-align: center;
     color:#fff;
     margin-top: 20px;
-  
   }
 
   .photo-dev{
-    /* width:40%; */
     height:180px;   
     text-align: center;
-    /* border:1px solid greenyellow; */
   }
   
   .photo-dev img{
@@ -125,15 +111,12 @@
     transition: transform 0.3s ease; 
     border: 3px solid #F79327;
     margin-top: 20px;
-    /* border-radius: 60%; */
   }
 
   .information-dev {
-    /* border: 1px solid red; */
     text-align: center;
     height: 280px;
   }
-
 
   .information-dev h3{
     margin-top: 10px;
@@ -147,15 +130,9 @@
     padding-right: 9px;
     color: #fff;
     font-size:13px;
-    /* text-align: justify; */
-    /* line-height: 1.5; */
     padding: auto;
     letter-spacing: 0.1px;
-     /* border: 1px solid red; */
   }
-
-
-/* pegar a partir daqui */
 
   .container-portfolio-one{
     border: 1px solid transparent;
@@ -163,14 +140,12 @@
     text-align: center;
     position: relative;
     padding-top: 1px;
-    /* border: 1px solid red; */
   }
 
   .container-portfolio-two{
     max-width: 1200px;
     margin: auto;  
     height:640px;
-    /* border: 1px solid #ccc; */
   }
   
   .container-portfolio-two h2{
@@ -178,7 +153,6 @@
     color:#fff;
     margin-top: 20px;
     font-size: 17px;
-    /* border: 1px solid #ccc; */
   }
 
   .slide h3{
@@ -190,7 +164,6 @@
     margin:auto;
     height: 400px;
     border-radius: 5px;
-    /* border: 1px solid blue; */
   }
 
   .next-btn,
@@ -206,14 +179,12 @@
     transition: background-color 0.3s ease-in-out; 
   }
 
-
-
-.contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{ 
-  display:block;
-  height: 50px;
-  margin-bottom: 20px;
-  padding: 2px;
-}
+  .contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{ 
+    display:block;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 2px;
+  }
 
   .container-contacts-one{
     border: 1px solid transparent;
@@ -227,7 +198,6 @@
     max-width: 1200px;
     margin: auto;  
     height:400px; 
-    /* border: 1px solid #ccc; */
   }
 
   .container-contacts-two h2{
@@ -248,10 +218,293 @@
     margin-top: 20px;
   }
 
+  .container-footer-one{
+    border: 1px solid transparent;
+    height: 350px;
+    text-align: center;
+  }
+    
+  .container-footer-two{
+    max-width: 1200px;
+    margin: auto;  
+    height:250px; 
+  }
+  
+  .container-footer-two h2{
+    text-align: center;
+    color:#fff;
+    margin-top: -30px;
+    font-size: 20px;
+  }
+
+  .footer-text p{
+    font-size:14px;
+  }
 
 
+  /* oculta menu quando */
+  .menuRight{
+    display: none;
+    width:1%;
+    margin-top: 80px;
+    margin-right: -70px;
+  }
+    
+  /* diminindo o espaço */
+  .menuRight li{
+    line-height: 40px;
+    color: #fff;
+  }
+    
+  #menuHamburguer{
+    color: #FFF;
+    background-color: #333;
+    cursor: pointer;
+    margin-top:30px;
+    float: right;
+    margin-right: 50px;
+    font-size: 30px;
+    display: block;
+  }
+}
 
 
+@media (max-width: 575px){
+
+
+  .name-profission,.dev,.photo-dev,.information-dev,.project-one,.project-two,.project-three,.contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{ 
+    display:block;
+  }
+
+  .container-hero-one{
+    height: 650px;
+    background-color: #333;
+    position: relative;
+    /* border:1px solid #ccc; */
+  }
+
+  .container-hero-two{
+    max-width: 1200px;
+    margin: auto;  
+    height:650px;  
+    animation: fadeInLeft 2s;
+    /* border:1px solid #ccc; */
+ }
+
+ .name-profission{
+    width:100%;
+    height:300px;   
+    margin-left:15px;
+    /* border:1px solid #ccc; */
+  }
+
+  .name-profission h1{
+    margin-top: 70px;
+    color: #FFF;
+    font-size: 20px;
+    margin-left:7px;
+  }
+  
+  .name-profission h2{
+    margin-top: -18px;
+    margin-left:7px;
+    color: #F79327;
+    font-size: 15px;
+  }
+  
+  .name-profission p{
+    margin-top: -10px; 
+    margin-left: 7px;
+    color: #fff;
+    font-size:12px;
+  }
+  
+  .icones img {
+    margin-top:20px;
+    width: 19px; 
+    height: 19px; 
+    margin-left: 5px;
+  }
+  
+  .curriculum{
+    margin-top:20px;
+    padding:5px;
+    border-radius: 5px;
+    border:none;
+    background-color: #F79327;
+    color: #333;
+    font-size: 13px;
+    margin-left: 7px;
+  } 
+  
+  .curriculum:hover{
+    border:1px solid #F79327;
+    background-color: #333;
+    color: #F79327;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .dev{
+    margin-top: 10px;
+    width:100%;
+    height:250px;   
+    margin-left:15px;
+    /* border:1px solid #F79327; */
+    float: left;
+  }
+  
+  .dev img{
+    margin-top: 10px;
+    max-width:900%;
+    height:220px; 
+    /* border:1px solid #F79327; */
+    padding-left: 50px;
+  }
+
+  .container-about-one{
+    border: 1px solid transparent;
+    height: 700px;
+    padding-top: 1px;
+    text-align: center;
+    position: relative;
+    /* border: 1px solid #F79327; */
+
+  }
+
+  .container-about-two{
+    max-width: 1200px;
+    height:700px; 
+    /* border: 1px solid #F79327; */
+  }
+
+  .container-about-two h2{
+    font-size: 20px;
+    text-align: center;
+    color:#fff;
+    margin-top: 20px;
+  }
+
+  .photo-dev{
+    height:180px;   
+    text-align: center;
+  }
+  
+  .photo-dev img{
+    width: 180px; 
+    height: 180px;
+    margin: 0 auto; 
+    display: block; 
+    transition: transform 0.3s ease; 
+    border: 3px solid #F79327;
+    margin-top: 20px;
+  }
+
+  .information-dev {
+    margin-right: 30px;
+    height: 400px;
+    margin-top: 20px;
+    max-width: 80%;
+  }
+
+  .information-dev h3{
+    margin-top: 10px;
+    color: #F79327;
+    font-size: 15px;
+   
+    text-align: center;
+  }
+  
+  .information-dev p{
+    margin-top: -10px; 
+    color: #fff;
+    font-size:13px;
+    letter-spacing: 0.2px;
+  }
+
+  .container-portfolio-one{
+    border: 1px solid transparent;
+    height: 640px;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+  }
+
+  .container-portfolio-two{
+    max-width: 1200px;
+    margin: auto;  
+    height:640px;
+  }
+  
+  .container-portfolio-two h2{
+    text-align: center;
+    color:#fff;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+
+  .slide h3{
+    margin-top:20px;
+  }
+
+  .slide img{
+    width:100%;
+    margin:auto;
+    height: 400px;
+    border-radius: 5px;
+  }
+
+  .next-btn,
+  .prev-btn {
+    background-color: #F79327; 
+    color: #fff; 
+    padding: 5px 10px;
+    border: none; 
+    cursor: pointer;
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin: 5px; 
+    transition: background-color 0.3s ease-in-out; 
+  }
+
+  .contact-location,.contact-email,.contact-linkedin,.contact-whatsapp{ 
+    display:block;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 2px;
+  }
+
+  .container-contacts-one{
+    border: 1px solid transparent;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+  }
+
+  .container-contacts-two{
+    max-width: 1200px;
+    margin: auto;  
+    height:400px; 
+  }
+
+  .container-contacts-two h2{
+    text-align: center;
+    color:#fff;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+
+  .container-contacts-two h3{
+    font-size: 10px;
+    margin-top: -3px;
+  }
+
+  .container-contacts-two img{
+    width:25px;
+    height: 25px;
+    margin-top: 20px;
+  }
 
   .container-footer-one{
     border: 1px solid transparent;
@@ -270,7 +523,6 @@
     color:#fff;
     margin-top: -30px;
     font-size: 20px;
-   
   }
 
   .footer-text p{
@@ -278,33 +530,28 @@
   }
 
 
-    /* oculta menu quando */
-    .menuRight{
-      display: none;
-      width:1%;
-      margin-top: 80px;
-      margin-right: -70px;
-    }
+  /* oculta menu quando */
+  .menuRight{
+    display: none;
+    width:1%;
+    margin-top: 80px;
+    margin-right: -70px;
+  }
     
-    /* diminindo o espaço */
-    .menuRight li{
-      line-height: 40px;
-      color: #fff;
-    }
+  /* diminindo o espaço */
+  .menuRight li{
+    line-height: 40px;
+    color: #fff;
+  }
     
-    #menuHamburguer{
-      color: #FFF;
-      background-color: #333;
-      cursor: pointer;
-      margin-top:30px;
-      float: right;
-      margin-right: 50px;
-      font-size: 30px;
-      display: block;
-    }
-
-
-
-    
-
+  #menuHamburguer{
+    color: #FFF;
+    background-color: #333;
+    cursor: pointer;
+    margin-top:30px;
+    float: right;
+    margin-right: 50px;
+    font-size: 30px;
+    display: block;
+  }
 }
