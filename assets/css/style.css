@@ -380,6 +380,10 @@ body {
   text-align: center;
 }
 
+.contact-whatsapp a{
+  text-decoration: none;
+}
+
 .container-contacts-two h2{
   text-align: center;
   color:#fff;
