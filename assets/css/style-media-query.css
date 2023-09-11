@@ -280,7 +280,6 @@
     height: 650px;
     background-color: #333;
     position: relative;
-    /* border:1px solid #ccc; */
   }
 
   .container-hero-two{
@@ -288,14 +287,12 @@
     margin: auto;  
     height:650px;  
     animation: fadeInLeft 2s;
-    /* border:1px solid #ccc; */
  }
 
  .name-profission{
     width:100%;
     height:300px;   
     margin-left:15px;
-    /* border:1px solid #ccc; */
   }
 
   .name-profission h1{
@@ -350,7 +347,6 @@
     width:100%;
     height:250px;   
     margin-left:15px;
-    /* border:1px solid #F79327; */
     float: left;
   }
   
@@ -358,7 +354,6 @@
     margin-top: 10px;
     max-width:900%;
     height:220px; 
-    /* border:1px solid #F79327; */
     padding-left: 50px;
   }
 
@@ -368,14 +363,11 @@
     padding-top: 1px;
     text-align: center;
     position: relative;
-    /* border: 1px solid #F79327; */
-
   }
 
   .container-about-two{
     max-width: 1200px;
     height:700px; 
-    /* border: 1px solid #F79327; */
   }
 
   .container-about-two h2{
@@ -411,7 +403,6 @@
     margin-top: 10px;
     color: #F79327;
     font-size: 15px;
-   
     text-align: center;
   }
   
@@ -498,13 +489,9 @@
   .container-contacts-two h3{
     font-size: 10px;
     margin-top: -3px;
-    /* border: 1px solid #F79327; */
     width: 170%;
     margin-right: 30px;
     margin-left: -30px;
-
-
-
   }
 
   .container-contacts-two img{
@@ -535,7 +522,6 @@
   .footer-text p{
     font-size:14px;
   }
-
 
   /* oculta menu quando */
   .menuRight{

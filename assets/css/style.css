@@ -382,7 +382,6 @@ body {
 
 .contact-whatsapp a{
   text-decoration: none;
-  /* border:1px solid red; */
   cursor: pointer;
 }
 
@@ -471,11 +470,6 @@ body {
 #menuHamburguer{
   display: none;
 }
-
-
-
-
-
 
 
 /* css padão para aplicação do efeito de transação */
