@@ -415,7 +415,7 @@
 
   .container-portfolio-one{
     border: 1px solid transparent;
-    height: 640px;
+    height: 650px;
     text-align: center;
     position: relative;
     padding-top: 1px;
@@ -424,7 +424,7 @@
   .container-portfolio-two{
     max-width: 1200px;
     margin: auto;  
-    height:640px;
+    height:650px;
   }
   
   .container-portfolio-two h2{
