@@ -24,7 +24,7 @@ Clone o projeto
  - Html5
  - Css
  - JavaScript
- - Ferramenta para desenvolvimento Visual studio code
+ - Visual studio code
  
 
 ## Autor
