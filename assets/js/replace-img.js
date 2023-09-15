@@ -9,13 +9,6 @@ function substituirImagem() {
 
         document.getElementById("imagemSlide2").src = "assets/img/tgc2.jpeg";
     } 
-    // else {
-    //     document.getElementById("imagemSlide").src = "assets/img/financeiro1.jpeg";
-
-    //     document.getElementById("imagemSlide").src = "assets/img/loja1.jpeg";
-
-    //     document.getElementById("imagemSlide").src = "assets/img/tgc1.jpeg";
-    // }
 }
 
 // Chame a função quando a página for carregada e redimensionada
