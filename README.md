@@ -19,7 +19,7 @@ Clone o projeto
  https://github.com/odenilsonmarques/portfolio.git
 ```
 
-## Técnicas e Tecnologias utilizadas
+## Tecnologias utilizadas
 
  - Html5
  - Css
