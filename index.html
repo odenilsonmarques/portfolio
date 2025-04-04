@@ -1,82 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bem-vindo ao meu portfólio pessoal, onde você pode explorar uma seleção dos projetos criativos e experiências profissionais que moldaram minha jornada">
-    <meta name="keywords" content="portfolio, site, sistemas, banco de dados, sistemas legados, mobile, negócios, wes site">
-    <meta name="author" content="odenilson marques https://github.com/odenilsonmarques/portfolio">
-    <meta name="robots" content="index, follow">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="assets/css/style.css"> 
-    <link rel="stylesheet" href="assets/css/style-media-query.css">
-    <link rel="icon" href="assets/img/code.png" type="image/x-icon">
-    <link rel="icon" href="assets/img/code.png" sizes="16x16" type="image/png">
-    <link rel="icon" href="assets/img/code.png" sizes="32x32" type="image/png">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bem-vindo ao meu portfólio pessoal, onde você pode explorar uma seleção dos projetos criativos e experiências profissionais que moldaram minha jornada">
+  <meta name="keywords"
+    content="portfolio, site, sistemas, banco de dados, sistemas legados, mobile, negócios, wes site">
+  <meta name="author" content="odenilson marques https://github.com/odenilsonmarques/portfolio">
+  <meta name="robots" content="index, follow">
+  <title>Portfólio | Odenilson Marques</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <link rel="icon" href="assets/img/code.png" type="image/x-icon">
+  <link rel="icon" href="assets/img/code.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="assets/img/code.png" sizes="32x32" type="image/png">
 </head>
+
 <body>
-  <header class="menu-top">
-      <nav class="nav-top">
-          <div class="logo">
-            <ul>
-              <li><a href="#" title="Odenilson Marques">OM</a></li>
-            </ul>
-          </div>
-          <span id="menuHamburguer" class="material-icons" onclick="clickMenu();">menu</span>
-          <div class="menuRight" id="menu">
-            <ul>
-              <li><a href="#hero">Inicio</a></li>
-              <li><a href="#about">Sobre</a></li>
-              <li><a href="#portfolio">Portfólio</a></li>
-              <li><a href="#contacts">Contatos</a></li>
-            </ul>
-          </div>
-      </nav>
+  <header>
+    <nav class="main-menu navbar navbar-expand-lg navbar-dark bg-dark p-3">
+      <div class="container">
+        <a class="navbar-brand" href="">
+          < O.M >
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav d-flex align-items-center">
+            <li class="nav-item list-unstyled">
+              <a class="nav-link" href="#about">Inicio</a>
+            </li>
+            <li class="nav-item list-unstyled">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item list-unstyled">
+              <a class="nav-link" href="#contacts">Contatos</a>
+            </li>
+
+            <li class="nav-item list-unstyled">
+              <a href="https://wa.me/5511932117180?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Germanuslub."
+                target="_blank" rel="noopener noreferrer" class="nav-link  btn-custom-s rounded-3">Vamos conversa ?</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <section class="hero">
-    <div class="container-hero-one">
-      <div class="container-hero-two">
-        <div class="name-profission">
-          <h1>Odenilson Marques</h1>
-          <h2>Desenvolvedor Back - End</h2>
-          <p>Este é o meu website oficial e portfólio<br> Aqui você encontra alguns dos projetos que tive a satisfação de desenvolver</p>
-          <div class="icones">
-            <img src="assets/img/html.svg" title="html 5" alt="icone-html"/>
-            <img src="assets/img/css.svg" title="css 3" alt="icone-css"/>
-            <img src="assets/img/js.svg" title="javaScript" alt="icone-js"/>
-            <img src="assets/img/wordpress.svg" title="wordpress" alt="icone-wordpress"/>
-            <img src="assets/img/php.svg" title="php" alt="icone-php"/>
-            <img src="assets/img/laravel.svg" title="laravel" alt="icone-laravel"/>
-            <img src="assets/img/bootstrap.svg" title="bootstrap" alt="icone-bootstrap"/>
-            <img src="assets/img/docker.svg" title="docker" alt="icon-docker"/>
-            <img src="assets/img/sql.svg" title="sql" alt="icon-sql"/>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center mt-5 ">
+          <h1 class="fw-bold">Odenilson Marques</h1>
+          <h2 class="subtitulo fw-normal mb-3">Desenvolvedor Web</h2>
+          <p>Este é o meu website oficial e portfólio<br> Aqui você encontra alguns dos projetos que tive a satisfação
+            de desenvolver</p>
+          <!-- <div class="icones">
+            <img src="assets/img/html.svg" title="html 5" alt="icone-html" />
+            <img src="assets/img/css.svg" title="css 3" alt="icone-css" />
+            <img src="assets/img/js.svg" title="javaScript" alt="icone-js" />
+            <img src="assets/img/wordpress.svg" title="wordpress" alt="icone-wordpress" />
+            <img src="assets/img/php.svg" title="php" alt="icone-php" />
+            <img src="assets/img/laravel.svg" title="laravel" alt="icone-laravel" />
+            <img src="assets/img/bootstrap.svg" title="bootstrap" alt="icone-bootstrap" />
+            <img src="assets/img/docker.svg" title="docker" alt="icon-docker" />
+            <img src="assets/img/sql.svg" title="sql" alt="icon-sql" />
+          </div> -->
           <a href="assets/pdf/curriculo.pdf" target="_blank" download>
-            <button class="curriculum">Baixar currículo</button>
+            <button class="btn-custom px-2 py-1 rounded">Baixar currículo</button>
           </a>
         </div>
-        <div class="dev" id="dev">
-          <img src="assets/img/dev.svg" alt="">
+        <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center align-items-center mt-5 ">
+          <img src="assets/img/img4.svg" alt="" width="350" class="img-fluid">
         </div>
       </div>
     </div>
   </section>
-  
-  <section class="about">
+
+  <!-- <section class="about">
     <div class="container-about-one">
       <div class="container-about-two">
         <h2>Sobre</h2>
         <div class="photo-dev">
-          <img src="assets/img/devTwo.png"  alt=""  class="img-responsive">
+          <img src="assets/img/devTwo.png" alt="" class="img-responsive">
         </div>
         <div class="information-dev">
           <h3>Desenvolvedor Back - End</h3>
           <p>
-            Graduando em Sistema de Informação no Instituto Federal do Maranhão. Atualmente trabalho com o desenvolvimento de sistemas, sites, 
-            bancos de dados e manutenção de sistemas legados. Utilizo tecnologias web para desenvolvimento dos projetos, empregando linguagens
-            como: Php, Sql e Javascript, além de fazer uso de frameworks como Laravel e Bootstrap.Também tenho familiaridade com a criação de
+            Graduando em Sistema de Informação no Instituto Federal do Maranhão. Atualmente trabalho com o
+            desenvolvimento de sistemas, sites,
+            bancos de dados e manutenção de sistemas legados. Utilizo tecnologias web para desenvolvimento dos projetos,
+            empregando linguagens
+            como: Php, Sql e Javascript, além de fazer uso de frameworks como Laravel e Bootstrap.Também tenho
+            familiaridade com a criação de
             ambientes de desenvolvimento usando Docker.
           </p>
           <div class="icones-redes">
@@ -84,18 +107,18 @@
               <img src="assets/img/github.png" title="github" alt="icone-github" />
             </a>
             <a href="https://www.linkedin.com/in/odenilsonmarques/" target="_blank">
-              <img src="assets/img/linkedin.png" title="linkedin" alt="icone-linkedin"/>
+              <img src="assets/img/linkedin.png" title="linkedin" alt="icone-linkedin" />
             </a>
             <a href="https://gmz.solutions/" target="_blank">
-              <img src="assets/img/icone-gmze.png" class="gmz-icone" title="gmz solutions" alt="icone-gmz"/>
+              <img src="assets/img/icone-gmze.png" class="gmz-icone" title="gmz solutions" alt="icone-gmz" />
             </a>
           </div>
-        </div>    
+        </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="portfolio">
+  <!-- <section class="portfolio">
     <div class="container-portfolio-one">
       <div class="container-portfolio-two">
         <h2>Portfólio</h2>
@@ -119,10 +142,10 @@
         <button class="next-btn">Próximo</button>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
-  <section class="contacts">
+  <!-- <section class="contacts">
     <div class="container-contacts-one">
       <div class="container-contacts-two">
         <h2>Contatos</h2>
@@ -133,36 +156,37 @@
         <div class="contact-email">
           <img src="assets/img/mail.png" alt="">
           <h3>odmarquesgm@gmail.com</h3>
-        </div> 
+        </div>
         <div class="contact-linkedin">
           <img src="assets/img/linkedin2.png" alt="">
           <h3>linkedin.com/in/odenilsonmarques</h3>
-        </div>   
+        </div>
         <div class="contact-whatsapp">
           <a href="https://api.whatsapp.com/send?phone=5598981061009" target="_blank">
             <img src="assets/img/whatsapp.png" alt="">
             <h3>+55 98 98106 - 1009</h3>
           </a>
-        </div>  
+        </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="footer">
+  <!-- <section class="footer">
     <div class="container-footer-one">
       <div class="container-footer-two">
         <h2>Odenilson Marques</h2>
         <div class="footer-text">
-          <p>Este é o meu website oficial e portfólio<br> Aqui você encontra alguns dos projetos que tive a satisfação de desenvolver</p>
+          <p>Este é o meu website oficial e portfólio<br> Aqui você encontra alguns dos projetos que tive a satisfação
+            de desenvolver</p>
           <div class="icones-footer">
             <a href="https://github.com/odenilsonmarques" target="_blank">
               <img src="assets/img/github.png" title="github" alt="icone-github" />
             </a>
             <a href="https://www.linkedin.com/in/odenilsonmarques/" target="_blank">
-              <img src="assets/img/linkedin.png" title="linkedin" alt="icone-linkedin"/>
+              <img src="assets/img/linkedin.png" title="linkedin" alt="icone-linkedin" />
             </a>
             <a href="https://gmz.solutions/" target="_blank">
-              <img src="assets/img/icone-gmze.png" class="gmz-icone" title="gmz solutions" alt="icone-gmz"/>
+              <img src="assets/img/icone-gmze.png" class="gmz-icone" title="gmz solutions" alt="icone-gmz" />
             </a>
           </div>
           <p class="copy">&copy; 2023 Odenilson Marques. Todos os direitos reservados.</p>
@@ -175,12 +199,14 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <script src="assets/js/slide.js"></script>
+  <!-- <script src="assets/js/slide.js"></script>
   <script src="assets/js/scroll-divs.js"></script>
   <script src="assets/js/scroll-top.js"></script>
   <script src="assets/js/script.js"></script>
-  <script src="assets/js/replace-img.js"></script>
+  <script src="assets/js/replace-img.js"></script> -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
