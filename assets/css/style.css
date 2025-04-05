@@ -53,6 +53,20 @@ body{
 }
 
 
+
+.social-icons a {
+  color: #ff8000;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: white; /* ou um laranja mais claro, se quiser highlight */
+}
+
+
+
 /* css padão para aplicação do efeito de transação */
 @keyframes fadeInLeft {
   0% {
@@ -65,8 +79,10 @@ body{
   }
 }
 
-/* Aplica o efeito na hero */
-.hero {
+
+
+.animate-fadeInLeft {
   animation: fadeInLeft 1s ease-out;
+  animation-fill-mode: both;
 }
 
