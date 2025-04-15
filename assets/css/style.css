@@ -86,3 +86,13 @@ body{
   animation-fill-mode: both;
 }
 
+
+
+.tech-icon {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.tech-icon:hover {
+  opacity: 1;
+}
