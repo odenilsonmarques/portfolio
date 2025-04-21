@@ -1,33 +1,28 @@
-body{
+body {
   background-color: #1e1e1e;
   color: #fff;
   font-family: Arial, sans-serif;
-  
+  padding-top: 80px;
 }
 
-/* header{
-  padding: 10px;
-} */
-
-.main-menu .navbar-brand{
+.main-menu .navbar-brand {
   color: #ff8c00;
   font-size: 25px;
   font-weight: bold;
-
 }
-.main-menu .navbar-brand:hover{
-  color:#ff8c00
+
+.main-menu .navbar-brand:hover {
+  color: #ff8c00
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
-  
 }
-  
+
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #ff8c00;
-  /* text-decoration: underline; */
 }
+
 .main-menu li {
   margin-right: 12px;
 }
@@ -37,11 +32,16 @@ body{
   margin-right: 0;
 }
 
-.subtitulo{
+.lead{
+  max-width: 800px; 
+  text-align: justify;
+}
+
+.subtitulo {
   color: #ff8c00;
 }
 
-.btn-custom{
+.btn-custom {
   background-color: #e07b00;
   color: #fff;
   border: none;
@@ -52,8 +52,6 @@ body{
   background-color: #ff8c00;
 }
 
-
-
 .social-icons a {
   color: #ff8000;
   margin-right: 15px;
@@ -62,31 +60,28 @@ body{
 }
 
 .social-icons a:hover {
-  color: white; /* ou um laranja mais claro, se quiser highlight */
+  color: white;
+  /* ou um laranja mais claro, se quiser highlight */
 }
-
-
 
 /* css padão para aplicação do efeito de transação */
 @keyframes fadeInLeft {
   0% {
-      opacity: 0;
-      transform: translateX(-100px);
+    opacity: 0;
+    transform: translateX(-100px);
   }
+
   100% {
-      opacity: 1;
-      transform: translateX(0);
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
-
-
-.animate-fadeInLeft {
-  animation: fadeInLeft 1s ease-out;
+.hero,
+.social-icons {
+  animation: fadeInLeft 2s ease-out;
   animation-fill-mode: both;
 }
-
-
 
 .tech-icon {
   opacity: 0.6;
@@ -95,4 +90,40 @@ body{
 
 .tech-icon:hover {
   opacity: 1;
+}
+
+.swiper-slide {
+  background-color: #f8f9fa;
+  /* fundinho claro */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.1);
+  /* aumenta ao passar o mouse */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.swiper-slide p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Ajustar o espaço pra não colar nas laterais no mobile */
+.swiper {
+  padding: 10px 0;
+}
+
+html {
+  /* 
+      scroll-padding-top: reserva um espaço no topo 
+      quando clicar em âncoras (#about, #contacts etc), 
+      para o conteúdo não ficar escondido atrás do header fixo.
+    */
+  scroll-padding-top: 100px;
+  /* Ajuste para a altura do seu header */
 }
